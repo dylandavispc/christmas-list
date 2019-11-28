@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>♪Christmas List♪</title>
+
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+	<!-- Bootstrap CDN-->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+	<!-- Firebase References -->
+	<script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+</head>
+<body>
+
+		<div class="container">
+
+				<br>
+		
+				<!-- Jumbotron Title -->
+				<div class="jumbotron">
+					<h1 class="text-center">Dylan's Christmas List!!!</h1>
+					<h3 class="text-center">"Where dreams come true!"</h3>
+				</div>
+		
+				<!-- Current Product -->
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="card">
+							<div class="card-body">
+								<div class="row">
+									<div class="col-sm-4 col-sm-offset-4">
+										<img class="img-responsive center-block face" src="facealone.png"
+											alt="Dylan's Face">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="card">
+							<div class="card-header">
+								What are you getting Dylan???
+							</div>
+							<ul class="list-group list-group-flush">
+
+								<!-- Breath of the Wild -->
+								<li class="list-group-item">
+									<div class="row">
+									<form id="">
+										<div class="form-group">
+											<div class="col-md-3">
+													<img class ="img-responsive center-block" src="https://images-na.ssl-images-amazon.com/images/I/511M6ML2t7L.jpg">
+											</div>
+											<div class="col-md-9">
+													<h2 class="title">Legend of Zelda: BOTW</h2>
+													<h3><strong>$</strong>30-50</h3>
+													<div id="i1-data"></div>
+											</div>
+										</div>
+									</form>
+								</div>
+
+								<!-- Breath of the Wild -->
+								<li class="list-group-item">
+										<div class="row">
+										<form id="">
+											<div class="form-group">
+												<div class="col-md-3">
+														<img class ="img-responsive center-block" src="https://images-na.ssl-images-amazon.com/images/I/511M6ML2t7L.jpg">
+												</div>
+												<div class="col-md-9">
+														<h2 class="title">Legend of Zelda: BOTW</h2>
+														<h3><strong>$</strong>30-50</h3>
+														<div id="i2-data"></div>
+												</div>
+											</div>
+										</form>
+									</div>
+									</li>
+
+									<!-- Breath of the Wild -->
+									<li class="list-group-item">
+											<div class="row">
+											<form id="">
+												<div class="form-group">
+													<div class="col-md-3">
+															<img class ="img-responsive center-block" src="https://images-na.ssl-images-amazon.com/images/I/511M6ML2t7L.jpg">
+													</div>
+													<div class="col-md-9">
+															<h2 class="title">Legend of Zelda: BOTW</h2>
+															<h3><strong>$</strong>30-50</h3>
+															<div id="i3-data"></div>
+													</div>
+												</div>
+											</form>
+										</div>
+										</li>
+
+							</ul>
+							<!-- <div class="card-body">
+								<form>
+									<div class="form-group">
+										<label for="bidder-name">Your Name</label>
+										<input class="form-control" id="bidder-name" type="text">
+									</div>
+									<div class="form-group">
+										<label for="bidder-price">Your Price</label>
+										<input class="form-control" id="bidder-price" type="number">
+									</div>
+									<button class="btn btn-primary" id="submit-bid" type="submit">Submit</button>
+								</form>
+							</div> -->
+						</div>
+					</div>
+		
+				</div>
+		
+			</div>
+
+	<script src="logic.js"></script>
+</body>
+</html>
