@@ -13,7 +13,7 @@ firebase.initializeApp(firebaseConfig);
 
 const database = firebase.database();
 
-const count = 9;
+const count = 20;
 
 //initial values
 // let names = [

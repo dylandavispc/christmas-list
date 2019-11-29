@@ -1,15 +1,16 @@
 img {
-    width: 50%;
+  max-height: 227px;
+  max-width: 350px;
 }
 
 @media only screen and (max-width: 1000px) {
     img {
-      width: 300px;
+      max-height: 190px;
     }
 }
 
 @media only screen and (max-width: 600px) {
     img {
-      width: 150px;
+      max-height: 150px;
     }
 }
